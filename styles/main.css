@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "roboto";
+  src: url("file:///Users/sandrarialperez/Downloads/Roboto");
+}
+body {
+  background-color: aqua;
+}
+.encabezado {
+  color: white;
+}
+.header {
+  display: block;
+  height: 20px;
+  background-color: black;
+  font-family: "roboto";
+  color: white;
+}
