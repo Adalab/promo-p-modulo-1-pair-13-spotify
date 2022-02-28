@@ -12,7 +12,8 @@
   background-color: black;
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
+  z-index: 999;
   top: 0;
 }
 .logo {
@@ -23,11 +24,52 @@
   margin: 10px;
 }
 
+.main {
+  position: relative;
+  transform: translateY(60px);
+  top: 0px;
+}
+
 .main_part {
+  padding: 110px 10px 20px 10px;
   height: 50%;
   background-color: aqua;
 }
 
+.title_1 {
+  padding: 10px;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  /*display: flex;
+  position: sticky;*/
+}
+
+.subtitle {
+  padding: 10px;
+  line-height: 40px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  background-color: green;
+  font-size: 20px;
+  border-radius: 20px;
+  color: white;
+  width: 85%;
+  margin: 0 auto;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms {
+  padding: 10px;
+  color: white;
+}
 /* body {
   background-color: aqua;
 }
